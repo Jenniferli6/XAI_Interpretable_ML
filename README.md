@@ -60,7 +60,7 @@ Example variables:
 
 In this case, churn is fundamentally a binary classification problem.
 * My primary recommendation is to use logistic regression because it offers an excellent balance: ~80% accuracy, strong AUC (0.831), and straightforward odds-ratio interpretations.
-* My secondary suggestion would be GAM. f the analysis reveals significant non-linear patterns, switching to GAM provides a ~1% AUC improvement. It's ideal for deeper insights, like tailoring offers based on tenure thresholds, but requires more expertise for deployment.
+* My secondary suggestion would be GAM. The analysis reveals significant non-linear patterns, switching to GAM provides a ~1% AUC improvement. It's ideal for deeper insights, like tailoring offers based on tenure thresholds, but requires more expertise for deployment.
 * I would not recommend using the Linear Regression model in this case due to its low R² and poor fit for binary outcome variables.
 
 
